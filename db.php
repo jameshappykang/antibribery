@@ -6,11 +6,11 @@
 
 // $link = mysqli_connect('localhost', 'id10676327_aa111', 'ANTI-Bribery', 'id10676327_anti');
 
-$mysqli = new mysqli('127.0.0.1', 'root', '', 'vote_site');
+$mysqli = new mysqli('127.0.0.1', 'root', '50718888', 'vote');
 
 $mysqli->set_charset("utf8");
 
-$link = mysqli_connect('127.0.0.1', 'root', '', 'vote_site');
+$link = mysqli_connect('127.0.0.1', 'root', '50718888', 'vote');
 
 // Oh no! A connect_errno exists so the connection attempt failed!
 if ($mysqli->connect_errno) {
